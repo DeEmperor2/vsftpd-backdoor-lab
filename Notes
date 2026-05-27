@@ -1,0 +1,21 @@
+## notes.txt
+
+```txt
+- Initially had networking problems due to Host-Only adapter configuration
+- VM occasionally froze during scans
+- Learned difference between localhost (127.0.0.1) and actual VM IP
+- First exploit attempts failed because target was offline/rebooted
+- Needed correct RHOSTS/LHOST configuration
+- Learned how Meterpreter differs from normal shell
+- Used shell command inside Meterpreter to access Linux terminal
+- Took screenshots of:
+  - Nmap scan
+  - exploit configuration
+  - successful session
+  - whoami
+  - uname -a
+
+Observations:
+- Enumeration is more important than blindly exploiting
+- Old vulnerable systems can behave unpredictably
+- Metasploit simplifies exploitation workflow but understanding the process still matters
