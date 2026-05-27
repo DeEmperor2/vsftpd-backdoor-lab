@@ -1,0 +1,22 @@
+# VSFTPD 2.3.4 Backdoor Exploitation Lab
+
+## Objective
+Identify and exploit a vulnerable FTP service in a controlled lab environment using Metasploit Framework.
+
+## Lab Environment
+- Kali Linux
+- Metasploitable2
+- VirtualBox
+
+## Tools Used
+- Nmap
+- Metasploit Framework
+- Wireshark
+- Git/GitHub
+
+## Enumeration
+
+Performed service/version detection using:
+
+```bash
+nmap -Pn -sV 192.168.56.101
